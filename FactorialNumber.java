@@ -10,7 +10,7 @@ public class FactorialNumber {
             System.out.println("Factorial is not defined for negative number");
 
         } else {
-            for (int i = 1; i < num; i++) {
+            for (int i = 1; i <= num; i++) {
                 fac *= i;
             }
         }
