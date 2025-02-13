@@ -2,8 +2,8 @@ package Functions;
 
 import java.util.Scanner;
 
-public class GDC {
-    public static int gdc(int a,int b){
+public class GCd {
+    public static int gcd(int a,int b){
         while (b!=0) {
             int temp=b;
             b=a%b;
@@ -22,6 +22,6 @@ public class GDC {
         System.out.print("Enter the second number: ");
         int num2 = input.nextInt();
 
-        System.out.println("The LCM of " + num1 + " and " + num2 + " is: " + gdc(num1, num2));
+        System.out.println("The LCM of " + num1 + " and " + num2 + " is: " + gcd(num1, num2));
     }
 }
